@@ -1,0 +1,25 @@
+{
+    "name": "guihome/kamelott",
+    "description": "project around kamelott",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "guihomeWebDev",
+            "email": "lebot.guihome@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/routing": "^5.3",
+        "symfony/config": "^5.3",
+        "symfony/yaml": "^5.3"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    }
+}

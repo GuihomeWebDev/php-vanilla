@@ -1,0 +1,12 @@
+home:
+  path: /
+  controller: App\Controllers\PersonnageController@home
+
+show:
+  path: /show/{id}
+  controller: App\Controllers\PersonnageController@show
+  requirements:
+    id: \d+
+list:
+  path: /list
+  controller: App\Controllers\PersonnageController@list
